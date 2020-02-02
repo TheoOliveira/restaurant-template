@@ -16,7 +16,7 @@ body{
 }
 
 .wrapper{
-    width: 80%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px;
@@ -26,9 +26,9 @@ header{
     background: #3a4520;
     padding: 8px 0;
 }
+
 header img{
-    height: 150px;
-    width: 25%;
+    height: auto;
     padding: 0;
     margin: 0;
 
@@ -148,17 +148,6 @@ p.tags{
     margin-top: 5px;
 }
 
-#quote{
-    margin-top: 60px;
-    width: 60%;
-    padding: 40px 20%;
-    background: url(images/quote.png) no-repeat center 20px;
-    background-color: #efefef;
-    text-align: center;
-    color: #4e4e4e;
-    font-size: 20px;
-    line-height: 1.6em; 
-}
 
 footer{
     background:#29292c;
@@ -166,7 +155,7 @@ footer{
     border-top: 2px solid #29292c
 }
 footer .wrapper {
-    width: 81%;
+    width: 100%;
 }
 
 footer h4{
