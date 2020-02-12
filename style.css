@@ -29,9 +29,7 @@ header{
 
 header img{
     height: auto;
-    padding: 0;
-    margin: 0;
-
+    padding-left: 5em;
 }
 
 header h1{
@@ -205,6 +203,9 @@ footer li.tw{
     text-decoration: none;
     color: white;
 }
+#copyright small{
+    margin-left:3em;
+}
 
 
 /* MEDIA QUERIES */
@@ -234,19 +235,26 @@ footer ul:nth-child(odd){
     padding: 40px 5%;
 }
 
-}
+} 
 
 @media screen and (max-width: 768px){
 
 header nav{
     float: none;
+    text-align: justify;
+    padding-left: 5em;
+}
+header .wrapper img {
+    height: auto;
+    padding-left: 5em;
 }
 
 header nav li{
-    margin-left: 0;
-    width: 16.66%;
+    margin-left: .5em;
+    margin-right: .5em;
+    width: 20%;  
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 header h1.logo{
@@ -263,6 +271,9 @@ header h1.logo{
 #latest-work h2{
     text-align: center;
 }
+footer li{
+    margin-left: 4em;
+}
 
 }
 
@@ -278,6 +289,7 @@ header h1.logo{
 #latest-work li{
     width: 80%;
     margin: 30px 10% !important;
+    text-align: center;
 }
 
 #quote{
@@ -288,7 +300,11 @@ header h1.logo{
 footer ul{
     width: 100%;
     float: none;
-    border-top: 2px solid #333;
+    text-align: center;
+    
+}
+footer li{
+    margin-left: 2.5em;
 }
 
 header nav li{
@@ -304,6 +320,7 @@ header nav{
 header .wrapper{
     padding: 0;
     width: 100%;
+   
 
 }
 
@@ -319,6 +336,8 @@ header nav li a{
     border-top: 1px solid #4f4f4f
 }
 
+
+
 #burger-nav{
     width: 100%;
     height: 40px;
@@ -327,12 +346,14 @@ header nav li a{
 }
 
 header nav ul{
+    margin: 0 auto;
     height: 0;
     overflow: hidden;
 }
 
 header nav ul.open{
     height: auto;
+    align-items: center;
 }
 
 }
