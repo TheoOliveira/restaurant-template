@@ -25,6 +25,7 @@ body{
 header{
     background: #3a4520;
     padding: 8px 0;
+
 }
 
 
@@ -253,7 +254,7 @@ header nav{
 }
 header .wrapper img {
     height: auto;
-    padding-left: 5em;
+    padding-left: 14em;
 }
 
 header nav li{
